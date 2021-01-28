@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.TopBar {
+    height: 39px;
+    width: 100%;
+    background-color: #2e2e2e;
+}
+
+.content {
+    width: 1170px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.item {
+    display: inline-block;
+    margin-right: 25px;
+}
