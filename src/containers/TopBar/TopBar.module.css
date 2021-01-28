@@ -33,16 +33,18 @@
     height: 50px;
     width: 284px;
     padding: 0 16px;
-    font: 400 13px 'Ubuntu', sans-serif;
+    font: 400 13pt 'Ubuntu', sans-serif;
     border: none;
     outline: none;
 }
 
 .MagnifyingGlass {
     margin-top: 23px;
+    margin-bottom: 22px;
     padding: 14px;
     border: 1px solid #eaeaea;
     background-color: #231f20;
     display: inline-block;
     vertical-align: top;
+    margin-right: 86px;
 }

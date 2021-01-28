@@ -3,6 +3,7 @@ import TopLinks from '../TopLinks/TopLinks'
 import styles from './TopBar.module.css'
 import logo from '../../assets/logo.png'
 import magnifyingGlass from '../../assets/magnifying-glass.png'
+import LanguageSelect from '../LanguageSelect/LanguageSelect'
 
 const TopBar = () => {
     return (
@@ -18,7 +19,8 @@ const TopBar = () => {
                     </div>
                     <div className={styles.MagnifyingGlass}>
                         <img src={magnifyingGlass} alt="Szukaj" />
-                    </div>                    
+                    </div>
+                    <LanguageSelect />
                 </div>
             </div>
         </Fragment>
