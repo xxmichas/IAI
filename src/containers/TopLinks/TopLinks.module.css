@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .TopBar {
-    height: 39px;
+    height: 36px;
     width: 100%;
     background-color: #2e2e2e;
 }
@@ -18,12 +18,12 @@
     align-items: center;
 }
 
-img {
+.TopBar img {
     margin-right: 10px;
     vertical-align: middle;
 }
 
 .item {
     display: inline-block;
-    margin-right: 25px;
+    margin-right: 40px;
 }

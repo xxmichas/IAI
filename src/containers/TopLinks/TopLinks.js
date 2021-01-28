@@ -9,15 +9,15 @@ const TopLinks = () => {
         <div className={styles.TopBar}>
             <div className={styles.content}>
                 <div className={styles.item}>
-                    <img src={telephone} alt="Telefon"></img>
+                    <img src={telephone} alt="Telefon" />
                     Tel: +48 517 989 511
                 </div>
                 <div className={styles.item}>
-                    <img src={email} alt="Email"></img>
+                    <img src={email} alt="Email" />
                     E-mail: sklep@assassins-arms.com
                 </div>
                 <div className={styles.item}>
-                    <img src={facebook} alt="FaceBook"></img>
+                    <img src={facebook} alt="FaceBook" />
                     assasinarms
                 </div>
             </div>

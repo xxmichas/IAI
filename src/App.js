@@ -1,10 +1,9 @@
-import styles from  './App.module.css'
-import TopLinks from './containers/TopLinks/TopLinks'
+import TopBar from './containers/TopBar/TopBar'
 
 const App = () => {
     return (
         <div>
-            <TopLinks />
+            <TopBar />
         </div>
     )
 }
