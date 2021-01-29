@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
-@import url("https://use.typekit.net/vej1hjy.css");
+
+@font-face {
+    font-family:"myriad-pro";
+    src:url("./assets/fonts/myriadpro-bold.otf") format("woff2");
+    font-display:auto;font-style:normal;font-weight:700;
+}
 
 html, body {
     margin: 0;

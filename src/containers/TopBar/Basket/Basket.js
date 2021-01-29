@@ -1,14 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './Basket.module.css'
 import badge from '../../../assets/badge.png'
 
 const Basket = () => {
+    const [Hovering, SetHovering] = useState(false)
+
     return (
         <div className={styles.Basket}>
-            <div className={styles.background}>
+            <div className={`${styles.background} ${Hovering ? styles.hover : null}`}>
                 <img src={badge} alt="Koszyk" useMap="#Basket" />
                 <map name="Basket">
-                    <area className={styles.BasketMap} alt="Koszyk" coords="0,0 0,131 92,155 185,131 185,0 " shape="polygon" />
+                    <area onMouseOut={() => {SetHovering(false)}} onMouseOver={() => {SetHovering(true)}} className={styles.BasketMap} alt="Koszyk" coords="0,0 0,131 92,155 185,131 185,0 " shape="polygon" />
                 </map>
             </div>
             <div className={styles.content}>

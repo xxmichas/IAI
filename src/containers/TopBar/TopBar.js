@@ -13,7 +13,7 @@ const TopBar = () => {
                 <TopLinks />
                 <div className={styles.content}>
                     <div className={styles.logo}>
-                        <img src={logo} alt="logo" />
+                        <img onClick={() => window.location.assign(window.location.origin)} src={logo} alt="logo" />
                     </div>
                     <div className={styles.Search}>
                         <input type="text" placeholder="Wpisz czego szukasz..." />
@@ -23,7 +23,9 @@ const TopBar = () => {
                     </div>
                     <LanguageSelect />
                     <div className={styles.Account}>
-                        TWOJE KONTO
+                        <div className={styles.AccountLink}>
+                            TWOJE KONTO
+                        </div>
                     </div>
                     <Basket />
                 </div>

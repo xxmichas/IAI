@@ -19,6 +19,7 @@
     display: inline-block;
     font-size: 0;
     vertical-align: top;
+    cursor: pointer;
 }
 
 .Search {
@@ -52,14 +53,25 @@
 }
 
 .Account {
-    display: inline-block;
+    display: inline-flex;
     vertical-align: top;
     margin-left: 18px;
     margin-top: 32px;
     height: 33px;
-    line-height: 33px;
+}
+
+.AccountLink {
+    margin: auto;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
     font-size: 13px;
     font-family: myriad-pro, sans-serif;
     font-weight: 700;
     font-style: normal;
+    cursor: pointer;
+}
+
+.AccountLink:hover {
+    color: #b62323;
 }
