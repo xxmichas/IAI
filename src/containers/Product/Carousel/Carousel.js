@@ -21,7 +21,7 @@ const Carousel = () => {
             ]
 
     return (
-        <Fragment>
+        <div>
                 <div className={styles.slideArrowArea}>
                     <div className={`${styles.slideArrow} ${styles.upsideDown}`} id="prevSlide"></div>
                 </div>
@@ -34,7 +34,7 @@ const Carousel = () => {
                 <div className={styles.slideArrowArea}>
                     <div className={styles.slideArrow} id="nextSlide"></div>
                 </div>
-        </Fragment>
+        </div>
     )
 }
 
