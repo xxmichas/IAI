@@ -21,6 +21,9 @@ const TopBar = () => {
                         <img src={magnifyingGlass} alt="Szukaj" />
                     </div>
                     <LanguageSelect />
+                    <div className={styles.Account}>
+                        TWOJE KONTO
+                    </div>
                 </div>
             </div>
         </Fragment>
