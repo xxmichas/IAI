@@ -21,3 +21,7 @@ html, body {
 .swiper-slide {
     height: auto !important;
 }
+
+.swiper-container {
+    height: 100%;
+}
