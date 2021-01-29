@@ -10,7 +10,7 @@ const Basket = () => {
             <div className={`${styles.background} ${Hovering ? styles.hover : null}`}>
                 <img src={badge} alt="Koszyk" useMap="#Basket" />
                 <map name="Basket">
-                    <area onMouseOut={() => {SetHovering(false)}} onMouseOver={() => {SetHovering(true)}} className={styles.BasketMap} alt="Koszyk" coords="0,0 0,131 92,155 185,131 185,0 " shape="polygon" />
+                    <area onClick={() => console.log("checkout")} onMouseOut={() => {SetHovering(false)}} onMouseOver={() => {SetHovering(true)}} className={styles.BasketMap} alt="Koszyk" coords="0,0 0,131 92,155 185,131 185,0 " shape="polygon" />
                 </map>
             </div>
             <div className={styles.content}>

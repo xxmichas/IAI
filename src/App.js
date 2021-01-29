@@ -1,9 +1,11 @@
+import MenuBar from './containers/MenuBar/MenuBar'
 import TopBar from './containers/TopBar/TopBar'
 
 const App = () => {
     return (
-        <div>
+        <div className="Main">
             <TopBar />
+            <MenuBar />
         </div>
     )
 }

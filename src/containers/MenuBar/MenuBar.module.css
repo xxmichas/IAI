@@ -1,0 +1,41 @@
+.Menu {
+    width: 100%;
+    background-color: #fff;
+    z-index: -1;
+}
+
+.MenuContents {
+    width: 1170px;
+    margin: auto;
+    position: relative;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    height: 61px;
+    border-bottom: 1px solid red;
+}
+
+.cat:nth-child(1) {
+    padding: 0 16px 0 0;
+}
+
+.cat {
+    padding: 0 16px 0 27px;
+    cursor: pointer;
+    height: 100%;
+    display: inline-flex;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin: auto;
+}
+
+.arrow {
+    height: 12px;
+    margin-left: 8px;
+}

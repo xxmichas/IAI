@@ -9,26 +9,25 @@ import Basket from './Basket/Basket'
 const TopBar = () => {
     return (
         <Fragment>
-            <div className={styles.TopBar}>
-                <TopLinks />
-                <div className={styles.content}>
-                    <div className={styles.logo}>
-                        <img onClick={() => window.location.assign(window.location.origin)} src={logo} alt="logo" />
-                    </div>
-                    <div className={styles.Search}>
-                        <input type="text" placeholder="Wpisz czego szukasz..." />
-                    </div>
-                    <div className={styles.MagnifyingGlass}>
-                        <img src={magnifyingGlass} alt="Szukaj" />
-                    </div>
-                    <LanguageSelect />
-                    <div className={styles.Account}>
-                        <div className={styles.AccountLink}>
-                            TWOJE KONTO
-                        </div>
-                    </div>
-                    <Basket />
+            <div className={styles.TopBar} />
+            <TopLinks />
+            <div className={styles.content}>
+                <div className={styles.logo}>
+                    <img onClick={() => window.location.assign(window.location.origin)} src={logo} alt="logo" />
                 </div>
+                <div className={styles.Search}>
+                    <input type="text" placeholder="Wpisz czego szukasz..." />
+                </div>
+                <div className={styles.MagnifyingGlass}>
+                    <img src={magnifyingGlass} alt="Szukaj" />
+                </div>
+                <LanguageSelect />
+                <div className={styles.Account}>
+                    <div className={styles.AccountLink}>
+                        TWOJE KONTO
+                    </div>
+                </div>
+                <Basket />
             </div>
         </Fragment>
     )
