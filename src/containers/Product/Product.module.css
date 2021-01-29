@@ -16,4 +16,12 @@
     height: 79px;
     border: 1px solid #ebebeb;
     position: relative;
+    display: flex;
+}
+
+.card img {
+    max-width: 79px;
+    max-height: 79px;
+    display: block;
+    margin: auto;
 }
