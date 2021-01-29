@@ -24,7 +24,11 @@ const Product = () => {
                 </div>
                 <div className={styles.rightSide}>
                     <div className={styles.title}>
-                        dsadsadas
+                        MARKER TIPPMANN FT- 50  LITE 50 CAL RENTAL (BLACK)
+                    </div>
+                    <div className={styles.desc}>
+                        PRODUCENT: <a href="https://google.com">Dye</a>&nbsp;
+                        KOD PRODUKTU: 6578758769878
                     </div>
                 </div>
             </div>

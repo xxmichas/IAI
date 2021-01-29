@@ -23,6 +23,8 @@
     display: inline-block;
     vertical-align: top;
     width: 484px;
+    position: relative;
+    top: -7px;
 }
 
 .tags {
@@ -59,6 +61,7 @@
     height: 20px;
     line-height: 20px;
 }
+
 .preview {
     position: relative;
     margin: auto;
@@ -67,6 +70,23 @@
 }
 
 .title {
-    height: 45px;
     margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.desc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.desc a, .desc a:link, .desc a:visited, .desc a:active {
+    text-decoration: none;
+    color: #ce2e2a;
+}
+
+.desc a:hover {
+    color: #000;
 }
