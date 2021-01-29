@@ -1,0 +1,39 @@
+.carousel {
+    width: 81px;
+    height: 536px;
+    border: 1px solid red;
+    position: relative;
+    margin: 16px 0;
+}
+
+.card {
+    width: 79px;
+    height: 79px;
+    border: 1px solid #ebebeb;
+    position: relative;
+    display: flex;
+}
+
+.card img {
+    max-width: 79px;
+    max-height: 79px;
+    display: block;
+    margin: auto;
+}
+
+.slideArrowArea {
+    width: 81px;
+    height: 25px;
+    position: relative;
+}
+
+.slideArrow {
+    background-image: url("../../../assets/arrow.svg");
+    height: 25px;
+    width: 25px;
+    margin: auto;
+}
+
+.upsideDown {
+    transform: rotateX(180deg);
+}
