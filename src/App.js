@@ -1,5 +1,6 @@
 import Breadcrumbs from './containers/Breadcrumbs/Breadcrumbs'
 import MenuBar from './containers/MenuBar/MenuBar'
+import Product from './containers/Product/Product'
 import TopBar from './containers/TopBar/TopBar'
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
             <TopBar />
             <MenuBar />
             <Breadcrumbs />
+            <Product />
         </div>
     )
 }
