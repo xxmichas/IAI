@@ -1,7 +1,6 @@
 .Basket {
     width: 185px;
     height: 155px;
-    background-color: blue;
     position: absolute;
     top: -36px;
     right: 0;
@@ -59,4 +58,5 @@
 
 .BasketPrice {
     height: 16px;
+    font: 700 16px 'Ubuntu', sans-serif;
 }
