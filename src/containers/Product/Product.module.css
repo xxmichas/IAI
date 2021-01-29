@@ -3,3 +3,17 @@
     margin: auto;
     position: relative;
 }
+
+.carousel {
+    width: 81px;
+    height: 536px;
+    border: 1px solid red;
+    position: relative;
+}
+
+.card {
+    width: 79px;
+    height: 79px;
+    border: 1px solid #ebebeb;
+    position: relative;
+}
