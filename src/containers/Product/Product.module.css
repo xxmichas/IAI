@@ -17,7 +17,6 @@
     width: 567px;
     position: relative;
     margin-right: 16px;
-    border: 1px solid red;
 }
 
 .rightSide {
@@ -34,8 +33,32 @@
 .tag {
     position: relative;
     float: right;
+    height: 21px;
 }
 
+.tagArrow {
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right:10px solid #ce2e2a;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.tagBody {
+    background-color: #ce2e2a;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    font-size: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-left: 5px;
+    padding-right: 9px;
+    height: 20px;
+    line-height: 20px;
+}
 .preview {
     position: relative;
     margin: auto;

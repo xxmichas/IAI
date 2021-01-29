@@ -12,7 +12,10 @@ const Product = () => {
                 <div className={styles.leftSide}>
                     <div className={styles.tags}>
                         <div className={styles.tag}>
-                            dsadsa
+                            <div className={styles.tagArrow} />
+                            <div className={styles.tagBody}>
+                                PROMOCJA
+                            </div>
                         </div>
                     </div>
                     <div className={styles.preview}>
