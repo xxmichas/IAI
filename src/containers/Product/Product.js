@@ -6,7 +6,17 @@ const Product = () => {
     return (
         <Fragment>
             <div className={styles.Product}>
-                <Carousel />
+                <div className={styles.Carousel}>
+                    <Carousel />
+                </div>
+                <div className={styles.tags}>
+                    <div className={styles.tag}>
+                        dsadsa
+                    </div>
+                </div>
+                <div className={styles.title}>
+                    dsadsadas
+                </div>
             </div>
         </Fragment>
     )

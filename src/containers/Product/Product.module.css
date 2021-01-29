@@ -2,4 +2,30 @@
     width: 1170px;
     margin: auto;
     position: relative;
+    margin-top: 29px;
+}
+
+.Carousel {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.tags {
+    display: inline-block;
+    vertical-align: top;
+    width: 567px;
+    position: relative;
+    margin-right: 16px;
+}
+
+.tag {
+    position: relative;
+    float: right;
+}
+
+.title {
+    display: inline-block;
+    vertical-align: top;
+    width: 484px;
 }
