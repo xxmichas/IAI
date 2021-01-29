@@ -4,6 +4,7 @@ import styles from './TopBar.module.css'
 import logo from '../../assets/logo.png'
 import magnifyingGlass from '../../assets/magnifying-glass.png'
 import LanguageSelect from '../LanguageSelect/LanguageSelect'
+import Basket from './Basket/Basket'
 
 const TopBar = () => {
     return (
@@ -24,6 +25,7 @@ const TopBar = () => {
                     <div className={styles.Account}>
                         TWOJE KONTO
                     </div>
+                    <Basket />
                 </div>
             </div>
         </Fragment>

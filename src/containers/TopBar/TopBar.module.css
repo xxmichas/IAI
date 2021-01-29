@@ -11,6 +11,7 @@
 .content {
     width: 1170px;
     margin: auto;
+    position: relative;
 }
 
 .logo {
@@ -31,7 +32,7 @@
 
 .Search input {
     height: 50px;
-    width: 284px;
+    width: 252;
     padding: 0 16px;
     font: 400 13pt 'Ubuntu', sans-serif;
     border: none;
