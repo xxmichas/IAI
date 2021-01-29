@@ -6,3 +6,8 @@
     top: -36px;
     right: 0;
 }
+
+.BasketMap {
+    outline: none;
+    cursor: pointer;
+}

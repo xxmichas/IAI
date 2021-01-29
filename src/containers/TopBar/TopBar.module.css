@@ -42,12 +42,15 @@
 .MagnifyingGlass {
     margin-top: 23px;
     margin-bottom: 22px;
-    padding: 14px;
+    padding: 18px 16px 14px 16px;
     border: 1px solid #eaeaea;
     background-color: #231f20;
     display: inline-block;
     vertical-align: top;
     margin-right: 86px;
+    user-select: none;
+    font-size: 0;
+    cursor: pointer;
 }
 
 .Account {
