@@ -59,4 +59,5 @@
 .BasketPrice {
     height: 16px;
     font: 700 16px 'Ubuntu', sans-serif;
+    word-break: break-all;
 }
