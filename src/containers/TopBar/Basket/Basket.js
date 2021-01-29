@@ -13,6 +13,14 @@ const Basket = () => {
             </div>
             <div className={styles.content}>
                 <div className={styles.rank} />
+                <div className={styles.BasketText}>
+                    <div className={styles.BasketTitle}>
+                        TWÓJ KOSZYK
+                    </div>
+                    <div className={styles.BasketPrice}>
+                        0,00zł
+                    </div>
+                </div>
             </div>
         </div>
     )

@@ -27,11 +27,35 @@
     z-index: 10;
     position: relative;
     cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .rank {
     margin-left: 18px;
+    margin-right: 11px;
     width: 35px;
     height: 45px;
     background-image: url("../../../assets//rank.png");
+    display: inline-block;
+    vertical-align: top;
+}
+
+.BasketText {
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+}
+
+.BasketTitle {
+    height: 16px;
+    margin-bottom: 5px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12pt;
+}
+
+.BasketPrice {
+    height: 16px;
 }
