@@ -12,7 +12,11 @@ const Basket = () => {
                 </map>
             </div>
             <div className={styles.content}>
-                <div className={styles.rank} />
+                <div className={styles.rank}>
+                    <div className={styles.BasketItems}>
+                        0
+                    </div>
+                </div>
                 <div className={styles.BasketText}>
                     <div className={styles.BasketTitle}>
                         TWÓJ KOSZYK
