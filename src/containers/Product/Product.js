@@ -30,6 +30,14 @@ const Product = () => {
                         PRODUCENT: <a href="https://google.com">Dye</a>&nbsp;
                         KOD PRODUKTU: 6578758769878
                     </div>
+                    <div className={styles.color}>
+                        <div className={styles.colorText}>
+                            KOLOR:
+                        </div>
+                        <div className={styles.colorImgs}>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </Fragment>

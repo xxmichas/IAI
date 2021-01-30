@@ -70,7 +70,7 @@
 }
 
 .title {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 25px;
@@ -80,6 +80,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 11px;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .desc a, .desc a:link, .desc a:visited, .desc a:active {
@@ -89,4 +90,19 @@
 
 .desc a:hover {
     color: #000;
+}
+
+.color {
+
+}
+
+.colorText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.colorImgs {
+
 }
