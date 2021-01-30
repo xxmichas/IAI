@@ -19,6 +19,7 @@
     letter-spacing: 0px;
     word-spacing: 0px;
     transition: all 400ms ease-in-out;
+    z-index: 10;
 }
 
 .hover {
@@ -28,7 +29,7 @@
 .content {
     margin-top: 61px;
     width: 100%;
-    z-index: 10;
+    z-index: 20;
     position: relative;
     display: inline-block;
     vertical-align: top;

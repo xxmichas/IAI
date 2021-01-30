@@ -1,6 +1,9 @@
 import React, { Fragment } from 'react'
 import styles from './Product.module.css'
 import Carousel from './Carousel/Carousel';
+import Tblack from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/colors/black.png'
+import Tgreen from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/colors/green.png'
+import Tpurple from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/colors/purple.png'
 
 const Product = () => {
     return (
@@ -35,7 +38,24 @@ const Product = () => {
                             KOLOR:
                         </div>
                         <div className={styles.colorImgs}>
-
+                            <div className={styles.colorImg}>
+                                <img src={Tblack} alt="Czarny" />
+                            </div>
+                            <div className={styles.colorImg}>
+                                <img src={Tgreen} alt="Zielony" />
+                            </div>
+                            <div className={styles.colorImg}>
+                                <img src={Tpurple} alt="Fioletowy" />
+                            </div>
+                            <div className={styles.colorImg}>
+                                <img src={Tblack} alt="Czarny" />
+                            </div>
+                            <div className={styles.colorImg}>
+                                <img src={Tgreen} alt="Zielony" />
+                            </div>
+                            <div className={styles.colorImg}>
+                                <img src={Tpurple} alt="Fioletowy" />
+                            </div>
                         </div>
                     </div>
                 </div>

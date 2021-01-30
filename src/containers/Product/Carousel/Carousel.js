@@ -3,7 +3,7 @@ import styles from './Carousel.module.css'
 import SwiperCore, { Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
-import Tippmann from '../../../assets/products/Tippmann.png'
+import Tippmann from '../../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/Tippmann.png'
 
 const Carousel = () => {
     SwiperCore.use([Navigation]);
