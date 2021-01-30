@@ -1,11 +1,27 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect, useState } from 'react'
 import styles from './Product.module.css'
 import Carousel from './Carousel/Carousel';
 import Tblack from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/colors/black.png'
 import Tgreen from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/colors/green.png'
 import Tpurple from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/colors/purple.png'
+import Color from './Color/Color';
 
 const Product = () => {
+    let [selected, SetSelected] = useState(0)
+
+    let colors = [
+        <Color id={0} select={SetSelected} selected={selected} img={Tblack} alt="Czarny" />,
+        <Color id={1} select={SetSelected} selected={selected} img={Tgreen} alt="Zielony" />,
+        <Color id={2} select={SetSelected} selected={selected} img={Tpurple} alt="Fioletowy" />,
+        <Color id={3} select={SetSelected} selected={selected} img={Tblack} alt="Czarny" />,
+        <Color id={4} select={SetSelected} selected={selected} img={Tgreen} alt="Zielony" />,
+        <Color id={5} select={SetSelected} selected={selected} img={Tpurple} alt="Fioletowy" />
+    ]
+
+    useEffect(() => {
+        
+    }, [selected])
+
     return (
         <Fragment>
             <div className={styles.Product}>
@@ -38,24 +54,9 @@ const Product = () => {
                             KOLOR:
                         </div>
                         <div className={styles.colorImgs}>
-                            <div className={styles.colorImg}>
-                                <img src={Tblack} alt="Czarny" />
-                            </div>
-                            <div className={styles.colorImg}>
-                                <img src={Tgreen} alt="Zielony" />
-                            </div>
-                            <div className={styles.colorImg}>
-                                <img src={Tpurple} alt="Fioletowy" />
-                            </div>
-                            <div className={styles.colorImg}>
-                                <img src={Tblack} alt="Czarny" />
-                            </div>
-                            <div className={styles.colorImg}>
-                                <img src={Tgreen} alt="Zielony" />
-                            </div>
-                            <div className={styles.colorImg}>
-                                <img src={Tpurple} alt="Fioletowy" />
-                            </div>
+                            {colors.map((el, i) => (
+                                <Fragment key={i}>{el}</Fragment>
+                            ))}
                         </div>
                     </div>
                 </div>
