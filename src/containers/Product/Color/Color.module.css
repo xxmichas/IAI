@@ -5,6 +5,11 @@
     position: relative;
     display: flex;
     overflow: hidden;
+    transition: all 250ms ease-in-out;
+}
+
+.borderless {
+    border: 1px solid transparent !important;
 }
 
 .colorImg img {

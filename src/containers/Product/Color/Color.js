@@ -18,7 +18,7 @@ const Color = (props) => {
     }, [props.id, props.selected]);
 
     return (
-        <div onClick={() => SetSelected()} className={styles.colorImg}>
+        <div onClick={() => SetSelected()} className={`${styles.colorImg} ${isSelected ? styles.borderless : null}`}>
             <div className={`${styles.notSelected} ${isSelected ? styles.Selected : null}`} />
             <img src={props.img} alt={props.alt} />
         </div>

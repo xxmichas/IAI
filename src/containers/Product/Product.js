@@ -18,9 +18,7 @@ const Product = () => {
         <Color id={5} select={SetSelected} selected={selected} img={Tpurple} alt="Fioletowy" />
     ]
 
-    useEffect(() => {
-        
-    }, [selected])
+    useEffect(() => {}, [selected])
 
     return (
         <Fragment>
