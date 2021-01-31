@@ -18,6 +18,9 @@ const Product = () => {
         <Color id={5} select={SetSelected} selected={selected} img={Tpurple} alt="Fioletowy" />
     ]
 
+    let barrelLength = ['120 cm', '100 cm', '80 cm']
+    let calibers = ['55NU', '7,62 mm', '6 mm']
+
     useEffect(() => {}, [selected])
 
     return (
@@ -55,6 +58,32 @@ const Product = () => {
                             {colors.map((el, i) => (
                                 <Fragment key={i}>{el}</Fragment>
                             ))}
+                        </div>
+                    </div>
+                    <div className={styles.specs}>
+                        <div className={`${styles.spec} ${styles.spec1}`}>
+                            <div className={styles.specText}>
+                                DŁUGOŚĆ LUFY:
+                            </div>
+                            <div className={styles.drop}>
+                                <select className={styles.dropdown}>
+                                    {barrelLength.map((el, i) => (
+                                        <option key={i}>{el}</option>
+                                    ))}
+                                </select>
+                            </div>
+                        </div>
+                        <div className={`${styles.spec} ${styles.spec2}`}>
+                            <div className={styles.specText}>
+                                KALIBER:
+                            </div>
+                            <div className={styles.drop}>
+                                <select className={styles.dropdown}>
+                                    {calibers.map((el, i) => (
+                                        <option key={i}>{el}</option>
+                                    ))}
+                                </select>
+                            </div>
                         </div>
                     </div>
                 </div>

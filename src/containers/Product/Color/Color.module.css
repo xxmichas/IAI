@@ -6,10 +6,16 @@
     display: flex;
     overflow: hidden;
     transition: all 250ms ease-in-out;
+    cursor: pointer;
+}
+
+.colorImg:hover {
+    border: 1px solid #dc363d;
 }
 
 .borderless {
     border: 1px solid transparent !important;
+    cursor: default !important;
 }
 
 .colorImg img {
