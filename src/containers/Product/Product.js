@@ -165,6 +165,13 @@ const Product = (props) => {
                             </div>
                         </div>
                     </div>
+                    <div className={styles.features}>
+                        <div className={styles.featuresArrow} />
+                        <div className={`${styles.featuresArrow} ${styles.featuresArrowCover}`} />
+                        <div className={styles.featuresContent}>
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
         </Fragment>
