@@ -4,6 +4,7 @@ import Carousel from './Carousel/Carousel';
 import Tblack from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/colors/black.png'
 import Tgreen from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/colors/green.png'
 import Tpurple from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/colors/purple.png'
+import TippMann from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/Tippmann-large.png'
 import Color from './Color/Color';
 import IconOK from '../../assets/ok.png'
 import cheaperIcon from '../../assets/cash.png'
@@ -58,7 +59,7 @@ const Product = (props) => {
                         </div>
                     </div>
                     <div className={styles.preview}>
-                        dsa
+                        <img className={styles.previewImg} src={TippMann} alt="Tippmann" />
                     </div>
                 </div>
                 <div className={styles.rightSide}>
