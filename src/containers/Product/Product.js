@@ -6,6 +6,7 @@ import Tgreen from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL REN
 import Tpurple from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/colors/purple.png'
 import Color from './Color/Color';
 import IconOK from '../../assets/ok.png'
+import cheaperIcon from '../../assets/cash.png'
 
 const Product = (props) => {
     let [selected, SetSelected] = useState(0)
@@ -141,6 +142,26 @@ const Product = (props) => {
                             </div>
                             <div onClick={() => UpdateCart()} className={styles.addToBasket}>
                                 DODAJ DO KOSZYKA
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.comparison}>
+                        <div className={styles.cheaper}>
+                            <div className={styles.cheaperIcon}>
+                                <img src={cheaperIcon} alt="Znalazłeś ten produkt taniej?" />
+                            </div>
+                            <div className={styles.cheaperTexts}>
+                                <div className={styles.cheaperTitle}>
+                                    Znalazłeś ten produkt taniej? 
+                                </div>
+                                <div className={styles.cheaperPrice}>
+                                    WYNEGOCJUJ DOBRĄ CENĘ
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles.compare}>
+                            <div className={styles.compareText}>
+                                DODAJ DO PORÓWNANIA
                             </div>
                         </div>
                     </div>

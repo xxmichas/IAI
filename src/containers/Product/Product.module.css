@@ -203,6 +203,7 @@
 
 .purchase {
     display: inline-flex;
+    margin-bottom: 14px;
 }
 
 .price {
@@ -280,4 +281,48 @@
 
 .addToBasket:hover {
     filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.75));
+}
+
+.comparison {
+    height: 35px;
+    width: 100%;
+    display: inline-flex;
+}
+
+.cheaper {
+    display: flex;
+}
+
+.cheaperIcon {
+    margin-right: 12px;
+    font-size: 0;
+}
+
+.cheaperTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #202020;
+    margin-bottom: 3px;
+}
+
+.cheaperPrice {
+    float: left !important;
+}
+
+.compare {
+    flex-grow: 5;
+}
+
+.compareText, .cheaperPrice {
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    color: #b62323;
+    cursor: pointer;
+}
+
+.compareText:hover, .cheaperPrice:hover {
+    color: #000;
 }
