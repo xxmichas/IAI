@@ -9,6 +9,16 @@ import IconOK from '../../assets/ok.png'
 
 const Product = () => {
     let [selected, SetSelected] = useState(0)
+    let [Amount, SetAmount] = useState(1)
+
+    let UpdateAmount = (bonusAmount) => {
+        if (Amount + bonusAmount < 0) {
+            SetAmount(0)
+        }
+        else {
+            SetAmount(Amount + bonusAmount)
+        }
+    }
 
     let colors = [
         <Color id={0} select={SetSelected} selected={selected} img={Tblack} alt="Czarny" />,
@@ -118,13 +128,11 @@ const Product = () => {
                         </div>
                         <div className={styles.purchaseOptions}>
                             <div className={styles.purchaseAmount}>
-                                <div className={styles.addSubtract}>
+                                <div onClick={() => UpdateAmount(-1)} className={styles.addSubtract}>
                                     -
                                 </div>
-                                <div className={styles.purchaseAmountText}>
-                                    1
-                                </div>
-                                <div className={styles.addSubtract}>
+                                <div className={styles.purchaseAmountText}>{Amount}</div>
+                                <div onClick={() => UpdateAmount(1)} className={styles.addSubtract}>
                                     +
                                 </div>
                             </div>
