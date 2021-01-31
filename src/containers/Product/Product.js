@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from 'react'
+import React, { Fragment, useState } from 'react'
 import styles from './Product.module.css'
 import Carousel from './Carousel/Carousel';
 import Tblack from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/colors/black.png'
@@ -7,9 +7,10 @@ import Tpurple from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RE
 import Color from './Color/Color';
 import IconOK from '../../assets/ok.png'
 
-const Product = () => {
+const Product = (props) => {
     let [selected, SetSelected] = useState(0)
     let [Amount, SetAmount] = useState(1)
+    let price = 1278
 
     let UpdateAmount = (bonusAmount) => {
         if (Amount + bonusAmount < 0) {
@@ -18,6 +19,10 @@ const Product = () => {
         else {
             SetAmount(Amount + bonusAmount)
         }
+    }
+
+    let UpdateCart = () => {
+        props.UpdateCart("TippMann", price, Amount)
     }
 
     let colors = [
@@ -31,8 +36,6 @@ const Product = () => {
 
     let barrelLength = ['120 cm', '100 cm', '80 cm']
     let calibers = ['55NU', '7,62 mm', '6 mm']
-
-    useEffect(() => {}, [selected])
 
     return (
         <Fragment>

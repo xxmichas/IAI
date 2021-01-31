@@ -1,9 +1,25 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import styles from './Basket.module.css'
 import badge from '../../../assets/badge.png'
 
-const Basket = () => {
+const Basket = (props) => {
     const [Hovering, SetHovering] = useState(false)
+    const [Price, SetPrice] = useState("0,00zł")
+    const [Amount, SetAmount] = useState(0)
+
+    useEffect(() => {
+        let amount = 0
+        let price = 0
+        for (const item in props.cart) {
+            console.log(props.cart[item].amount)
+            console.log(props.cart[item].price)
+            amount = amount + props.cart[item].amount
+            price = price + (props.cart[item].amount * props.cart[item].price)
+        }
+
+        SetAmount(amount)
+        SetPrice(`${price.toFixed(2).toString()} zł`)
+    }, [props.cart])
 
     return (
         <div className={styles.Basket}>
@@ -16,7 +32,7 @@ const Basket = () => {
             <div className={styles.content}>
                 <div className={styles.rank}>
                     <div className={styles.BasketItems}>
-                        0
+                        {Amount}
                     </div>
                 </div>
                 <div className={styles.BasketText}>
@@ -24,7 +40,7 @@ const Basket = () => {
                         TWÓJ KOSZYK
                     </div>
                     <div className={styles.BasketPrice}>
-                        0,00zł
+                        {Price}
                     </div>
                 </div>
             </div>

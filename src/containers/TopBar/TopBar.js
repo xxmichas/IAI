@@ -6,7 +6,7 @@ import magnifyingGlass from '../../assets/magnifying-glass.png'
 import LanguageSelect from '../LanguageSelect/LanguageSelect'
 import Basket from './Basket/Basket'
 
-const TopBar = () => {
+const TopBar = (props) => {
     return (
         <Fragment>
             <div className={styles.TopBar} />
@@ -27,7 +27,7 @@ const TopBar = () => {
                         TWOJE KONTO
                     </div>
                 </div>
-                <Basket />
+                <Basket cart={props.cart} />
             </div>
         </Fragment>
     )
