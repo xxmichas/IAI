@@ -5,6 +5,7 @@ import Tblack from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL REN
 import Tgreen from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/colors/green.png'
 import Tpurple from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/colors/purple.png'
 import TippMann from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/Tippmann-large.png'
+import TippmannIcon from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/Tippmann.png'
 import Color from './Color/Color';
 import IconOK from '../../assets/ok.png'
 import cheaperIcon from '../../assets/cash.png'
@@ -12,6 +13,7 @@ import deliveryIcon from '../../assets/delivery.png'
 import returnIcon from '../../assets/return.png'
 import installmentsIcon from '../../assets/installments.png'
 import warrantyIcon from '../../assets/warranty.png'
+import Card from './Carousel/Card/Card'
 
 const Product = (props) => {
     let [selected, SetSelected] = useState(0)
@@ -40,6 +42,19 @@ const Product = (props) => {
         <Color id={5} select={SetSelected} selected={selected} img={Tpurple} alt="Fioletowy" />
     ]
 
+    let [selectedCard, SetSelectedCard] = useState(0)
+
+    let cards = [
+        <Card id={0} select={SetSelectedCard} selectedCard={selectedCard} img={TippmannIcon} alt="Tippmann" />,
+        <Card id={1} select={SetSelectedCard} selectedCard={selectedCard} img={TippmannIcon} alt="Tippmann" />,
+        <Card id={2} select={SetSelectedCard} selectedCard={selectedCard} img={TippmannIcon} alt="Tippmann" />,
+        <Card id={3} select={SetSelectedCard} selectedCard={selectedCard} img={TippmannIcon} alt="Tippmann" />,
+        <Card id={4} select={SetSelectedCard} selectedCard={selectedCard} img={TippmannIcon} alt="Tippmann" />,
+        <Card id={5} select={SetSelectedCard} selectedCard={selectedCard} img={TippmannIcon} alt="Tippmann" />,
+        <Card id={6} select={SetSelectedCard} selectedCard={selectedCard} img={TippmannIcon} alt="Tippmann" />,
+        <Card id={7} select={SetSelectedCard} selectedCard={selectedCard} img={TippmannIcon} alt="Tippmann" />,
+    ]
+
     let barrelLength = ['120 cm', '100 cm', '80 cm']
     let calibers = ['55NU', '7,62 mm', '6 mm']
 
@@ -47,7 +62,7 @@ const Product = (props) => {
         <Fragment>
             <div className={styles.Product}>
                 <div className={styles.Carousel}>
-                    <Carousel />
+                    <Carousel cards={cards} />
                 </div>
                 <div className={styles.leftSide}>
                     <div className={styles.tags}>
