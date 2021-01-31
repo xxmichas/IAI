@@ -7,6 +7,10 @@ import Tpurple from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RE
 import Color from './Color/Color';
 import IconOK from '../../assets/ok.png'
 import cheaperIcon from '../../assets/cash.png'
+import deliveryIcon from '../../assets/delivery.png'
+import returnIcon from '../../assets/return.png'
+import installmentsIcon from '../../assets/installments.png'
+import warrantyIcon from '../../assets/warranty.png'
 
 const Product = (props) => {
     let [selected, SetSelected] = useState(0)
@@ -169,7 +173,56 @@ const Product = (props) => {
                         <div className={styles.featuresArrow} />
                         <div className={`${styles.featuresArrow} ${styles.featuresArrowCover}`} />
                         <div className={styles.featuresContent}>
-                            
+                            <div className={styles.feature}>
+                                <div className={styles.featureIcon}>
+                                    <img src={deliveryIcon} alt="Dostawa" />
+                                </div>
+                                <div className={styles.featureTexts}>
+                                    <div className={styles.featureTitle}>
+                                        DARMOWA DOSTAWA
+                                    </div>
+                                    <div className={styles.featureDesc}>
+                                        dla zamówień powyżej 600 zł
+                                    </div>
+                                </div>
+                            </div>
+                            <div className={styles.feature}>
+                                <div className={styles.featureIcon}>
+                                    <img src={returnIcon} alt="Zwrot" />
+                                </div>
+                                <div className={styles.featureTexts}>
+                                    <div className={styles.featureTitle}>
+                                        ZWROT TOWARU
+                                    </div>
+                                    <div className={styles.featureDesc}>
+                                        do 14 dni od daty zakupu
+                                    </div>
+                                </div>
+                            </div>
+                            <div className={styles.feature}>
+                                <div className={styles.featureIcon}>
+                                    <img src={installmentsIcon} alt="Raty" />
+                                </div>
+                                <div className={styles.featureTexts}>
+                                    <div className={styles.featureTitle}>
+                                        ZAKUPY NA RATY
+                                    </div>
+                                    <div className={styles.featureDesc}>
+                                        OBLICZ RATĘ &gt;&gt;
+                                    </div>
+                                </div>
+                            </div>
+                            <div className={styles.feature}>
+                                <div className={styles.featureIcon}>
+                                    <img src={warrantyIcon} alt="Gwarancja" />
+                                </div>
+                                <div className={styles.featureTexts}>
+                                    <div className={styles.featureTitle}>
+                                        GWARANCJA 12 MIESIĄCY
+                                    </div>
+                                    <div className={styles.featureDesc}></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
