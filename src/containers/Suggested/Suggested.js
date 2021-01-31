@@ -1,19 +1,12 @@
 import React from 'react'
 import styles from './Suggested.module.css'
 import item from '../../assets/MASKA EMPIRE E-FLEX GOGGLE (BLACK).png'
-import icon from '../../assets/icon.png'
+import SectionLabel from '../SectionLabel/SectionLabel'
 
 const Suggested = () => {
     return (
         <div className={styles.Suggested}>
-            <div className={styles.header}>
-                <div className={styles.icon}>
-                    <img src={icon} alt="" />
-                </div>
-                <div className={styles.title}>
-                    DOBIERZ DO KOMPLETU
-                </div>
-            </div>
+            <SectionLabel title="DOBIERZ DO KOMPLETU" />
             <div className={styles.content}>
                 <div className={styles.item}>
                     <div className={styles.itemImg}>
