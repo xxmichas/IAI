@@ -8,7 +8,14 @@ const App = () => {
     let [Cart, SetCart] = useState({})
 
     let UpdateCart = (item, price, amount) => {
-        SetCart({...Cart, [item]: {price: price, amount: amount}})
+        let oldAmount = 0
+        if (Cart[item] === undefined || Cart[item] === null) {
+
+        }
+        else {
+            oldAmount = Cart[item].amount
+        }
+        SetCart({...Cart, [item]: {price: price, amount: amount + oldAmount}})
     }
 
     return (

@@ -139,8 +139,8 @@ const Product = (props) => {
                                     +
                                 </div>
                             </div>
-                            <div className={styles.addToBasket}>
-
+                            <div onClick={() => UpdateCart()} className={styles.addToBasket}>
+                                DODAJ DO KOSZYKA
                             </div>
                         </div>
                     </div>
