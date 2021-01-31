@@ -46,12 +46,49 @@ const Description = () => {
                     <div className={styles.detailsContainer}>
                         <div className={styles.detailsText}>
                             <div className={styles.detailsProp}>
-
+                                Numer seryjny:
                             </div>
                             <div className={styles.detailsValue}>
-
+                                111000
+                            </div>
+                            <div className={styles.detailsProp}>
+                                Model:
+                            </div>
+                            <div className={styles.detailsValue}>
+                                TIPPMANN FT- 50 LITE 50
+                            </div>
+                            <div className={styles.detailsProp}>
+                                Kaliber:
+                            </div>
+                            <div className={styles.detailsValue}>
+                                66 LR HV
+                            </div>
+                            <div className={styles.detailsProp}>
+                                Pojemność magazynka:
+                            </div>
+                            <div className={styles.detailsValue}>
+                                10 nabojów
+                            </div>
+                            <div className={styles.detailsProp}>
+                                Mechanizm spustowy:
+                            </div>
+                            <div className={styles.detailsValue}>
+                                SA (Single Action)
+                            </div>
+                            <div className={styles.detailsProp}>
+                                Siła nacisku spustu:
+                            </div>
+                            <div className={styles.detailsValue}>
+                                1.8 kg / 4 lb
+                            </div>
+                            <div className={styles.detailsProp}>
+                                Wymiary:
+                            </div>
+                            <div className={styles.detailsValue}>
+                                1200x123mm
                             </div>
                         </div>
+                        <div className={styles.detailsPaint} />
                     </div>
                 </div>
             </div>
