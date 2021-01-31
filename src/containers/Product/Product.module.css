@@ -371,6 +371,7 @@
     display: flex;
     align-items: center;
     margin-right: 12px;
+    user-select: none;
 }
 
 .featureTitle {
@@ -383,4 +384,13 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 11px;
     font-weight: 400;
+}
+
+.featureDescLink {
+    color: #b62323;
+    cursor: pointer;
+}
+
+.featureDescLink:hover {
+    color: #000;
 }

@@ -208,7 +208,9 @@ const Product = (props) => {
                                         ZAKUPY NA RATY
                                     </div>
                                     <div className={styles.featureDesc}>
-                                        OBLICZ RATĘ &gt;&gt;
+                                        <div className={styles.featureDescLink}>
+                                            OBLICZ RATĘ &gt;&gt;
+                                        </div>
                                     </div>
                                 </div>
                             </div>
