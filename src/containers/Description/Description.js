@@ -26,7 +26,22 @@ const Description = () => {
                 </div>
                 <div className={styles.rightSide}>
                     <div className={styles.serviceBanner}>
-                        xd
+                        <div className={styles.serviceBannerContainer}>
+                            <div className={styles.serviceBannerTexts}>
+                                <div className={styles.serviceBannerBold}>
+                                    USŁUGI SERWISOWE
+                                </div>
+                                <div className={styles.serviceBannerRegular}>
+                                    Na sprzęt zakupiony w sklepie
+                                </div>
+                                <div className={styles.serviceBannerSemiBold}>
+                                    STAŁY  RABAT -25%
+                                </div>
+                            </div>
+                            <div className={styles.serviceBannerButton}>
+                                SPRAWDŹ
+                            </div>
+                        </div>
                     </div>
                     <div className={styles.detailsContainer}>
                         <div className={styles.detailsText}>
