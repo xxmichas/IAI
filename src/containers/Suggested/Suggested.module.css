@@ -2,7 +2,7 @@
     width: 1170px;
     margin: auto;
     position: relative;
-    margin-bottom: 500px;
+    margin-bottom: 30px;
 }
 
 .header {
@@ -25,12 +25,24 @@
 
 .content {
     width: 100%;
+    display: inline-flex;
 }
 
 .item {
-    padding: 30px 40px;
+    cursor: pointer;
+    padding: 0 40px;
+    margin: 30px 0;
     display: flex;
     width: calc(400px - 80px);
+    border-right: 1px solid #d7d7d7;
+}
+
+.item:hover {
+    color: #b62323;
+}
+
+.item:last-child {
+    border: none;
 }
 
 .itemImg {

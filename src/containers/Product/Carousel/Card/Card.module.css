@@ -32,7 +32,7 @@
     bottom: 0;
     left: 0;
     background-color: #dc363d;
-    transform: translateY(3px);
+    transform: translateY(10px);
     transition: all 250ms ease-in-out;
 }
 
