@@ -113,7 +113,9 @@
 
 .specs {
     display: inline-flex;
+    flex-wrap: wrap;
     gap: 16px;
+    margin-bottom: 16px;
 }
 
 .spec {
@@ -151,4 +153,97 @@
     font-size: 9px;
     font-weight: 600;
     color: #272626;
+}
+
+.shipping {
+    width: 100%;
+    display: inline-flex;
+    gap: 16px;
+    margin-bottom: 26px;
+}
+
+.availability {
+    width: 235px;
+    display: flex;
+}
+
+.availabilityIcon {
+    margin-right: 12px;
+    font-size: 0;
+}
+
+.availabilityStatus {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.availabilityDate {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.shippingDetails {
+    width: 235px;
+}
+
+.shippingDetailsText {
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    color: #b62323;
+    cursor: pointer;
+}
+
+.shippingDetailsText:hover {
+    color: #000;
+}
+
+.purchase {
+    display: inline-flex;
+}
+
+.price {
+    width: 186px;
+}
+
+.priceOld {
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #9d9c9c;
+    text-decoration: line-through;
+    font-size: 9px;
+    margin-bottom: 8px;
+}
+
+.priceCurrent {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: #2e2e2e;
+    font-size: 25px;
+}
+
+.purchaseOptions {
+    width: 300px;
+}
+
+.purchaseAmount {
+    width: 98px;
+    height: 58px;
+    border: 1px solid #d7d7d7;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+}
+
+.addSubtract {
+    width: 30px;
+}
+
+.purchaseAmountText {
+    width: 38px;
 }

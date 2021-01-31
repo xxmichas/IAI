@@ -7,6 +7,12 @@
     font-display:auto;font-style:normal;font-weight:700;
 }
 
+@font-face {
+    font-family:"myriad-pro";
+    src:url("./assets/fonts/myriadpro-regular.otf") format("woff2");
+    font-display:auto;font-style:normal;font-weight:400;
+}
+
 html, body {
     margin: 0;
     padding: 0;

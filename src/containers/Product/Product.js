@@ -5,6 +5,7 @@ import Tblack from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL REN
 import Tgreen from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/colors/green.png'
 import Tpurple from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/colors/purple.png'
 import Color from './Color/Color';
+import IconOK from '../../assets/ok.png'
 
 const Product = () => {
     let [selected, SetSelected] = useState(0)
@@ -83,6 +84,52 @@ const Product = () => {
                                         <option key={i}>{el}</option>
                                     ))}
                                 </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.shipping}>
+                        <div className={styles.availability}>
+                            <div className={styles.availabilityIcon}>
+                                <img src={IconOK} alt="Dostępny na magazynie" />
+                            </div>
+                            <div className={styles.availabilityTexts}>
+                                <div className={styles.availabilityStatus}>
+                                    Dostępny na magazynie (14 szt.)
+                                </div>
+                                <div className={styles.availabilityDate}>
+                                    Wysyłka dzisiaj
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles.shippingDetails}>
+                            <div className={styles.shippingDetailsText}>
+                                SPRAWDŹ CZASY I KOSZTY WYSYŁKI
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.purchase}>
+                        <div className={styles.price}>
+                            <div className={styles.priceOld}>
+                                1499,00 zł
+                            </div>
+                            <div className={styles.priceCurrent}>
+                                1278,00 zł
+                            </div>
+                        </div>
+                        <div className={styles.purchaseOptions}>
+                            <div className={styles.purchaseAmount}>
+                                <div className={styles.addSubtract}>
+                                    -
+                                </div>
+                                <div className={styles.purchaseAmountText}>
+                                    1
+                                </div>
+                                <div className={styles.addSubtract}>
+                                    +
+                                </div>
+                            </div>
+                            <div className={styles.addToBasket}>
+
                             </div>
                         </div>
                     </div>
