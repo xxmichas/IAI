@@ -47,7 +47,17 @@ const Description = () => {
                         <div className={styles.FAQTitle}>
                             Nasi klienci pytali o:
                         </div>
-                        <Accordion items={items} />
+                        <div className={styles.accordion}>
+                            <Accordion items={items} />
+                        </div>
+                        <div className={styles.help}>
+                            <div className={styles.helpText}>
+                                Nie znalazłeś odpowiedzi?
+                            </div>
+                            <div className={styles.helpButton}>
+                                Zadaj swoje pytanie
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className={styles.rightSide}>

@@ -33,6 +33,34 @@
     margin-bottom: 20px;
 }
 
+.accordion {
+    margin-bottom: 16px;
+}
+
+.help {
+    height: 42px;
+    line-height: 42px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.helpText {
+    color: #2e2e2e;
+    font-size: 16px;
+    margin-right: 14px;
+}
+
+.helpButton {
+    width: 218px;
+    height: 100%;
+    background-image: url("../../assets/helpButton.png");
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+}
+
 .rightSide {
     width: 285px;
 }
