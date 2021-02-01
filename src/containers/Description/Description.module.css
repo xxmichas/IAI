@@ -59,6 +59,13 @@
     font-size: 13px;
     text-align: center;
     color: #fff;
+    user-select: none;
+    cursor: pointer;
+    transition: all 350ms ease-in-out;
+}
+
+.helpButton:hover {
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.75));
 }
 
 .rightSide {
