@@ -87,8 +87,8 @@ const Description = () => {
                             <div className={styles.detailsValue}>
                                 1200x123mm
                             </div>
+                            <div className={styles.detailsPaint} />
                         </div>
-                        <div className={styles.detailsPaint} />
                     </div>
                 </div>
             </div>

@@ -85,7 +85,6 @@
 .detailsContainer {
     position: relative;
     background-color: #fff;
-    height: 400px;
 }
 
 .detailsPaint {
@@ -93,23 +92,33 @@
     width: 487px;
     height: 484px;
     position: absolute;
-    top: 75px;
+    bottom: -160px;
     left: -85px;
     background-image: url("../../assets/bg-paint.png");
 }
 
 .detailsText {
     color: #2e2e2e;
+    padding: 40px 24px 30px;
+    position: relative;
 }
 
 .detailsProp {
     font-family: myriad-pro, sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 12px;
 }
 
 .detailsValue {
     font-family: myriad-pro, sans-serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.detailsValue:last-child {
+    margin-bottom: 0;
 }
