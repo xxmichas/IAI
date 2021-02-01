@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Breadcrumbs from './containers/Breadcrumbs/Breadcrumbs'
 import Description from './containers/Description/Description'
+import Footer from './containers/Footer/Footer'
 import MenuBar from './containers/MenuBar/MenuBar'
 import Product from './containers/Product/Product'
 import Suggested from './containers/Suggested/Suggested'
@@ -30,6 +31,7 @@ const App = () => {
             <Suggested />
             <Description />
             <Tips />
+            <Footer />
         </div>
     )
 }
