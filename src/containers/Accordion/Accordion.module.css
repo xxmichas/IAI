@@ -1,0 +1,18 @@
+.accordion {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    max-width: 30rem;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 0 0.8rem 0.1rem rgba(15, 72, 179, 0.06), 0 20px 30px -10px rgba(15, 72, 179, 0.2);
+}
+
+.accordionItem {
+    border-top: 1px solid #d7d7d7;
+}
+
+.accordionItem:first-child {
+    border-top: none;
+}
