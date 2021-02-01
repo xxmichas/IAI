@@ -34,14 +34,17 @@
     display: inline-flex;
 }
 
+.section {
+    border-right: 1px solid #333;
+}
+
 .informations {
     margin-left: 8px;
     width: calc(222px - 78px);
     padding-right: 70px;
-    border-right: 1px solid #333;
 }
 
-.informationsTitle, .myAccountTitle {
+.informationsTitle, .myAccountTitle, .contactTitle {
     color: #fff;
     font-size: 16px;
     line-height: 19px;
@@ -66,5 +69,31 @@
     margin-left: 88px;
     width: calc(313px - 192px);
     padding-right: 104px;
-    border-right: 1px solid #333;
+}
+
+.contact {
+    margin-left: 70px;
+    width: calc(354px - 170px);
+    padding-right: 100px;
+    color: #fff;
+}
+
+.contactNumber {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.contactEmail {
+    font-size: 14.5px;
+    margin-bottom: 30px;
+}
+
+.socials {
+    display: inline-flex;
+    gap: 30px;
+    height: 25px;
+}
+
+.social {
+    height: 100%;
 }

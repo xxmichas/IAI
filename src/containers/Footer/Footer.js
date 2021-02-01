@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from './Footer.module.css'
+import fb from '../../assets/facebook-footer.png'
+import ig from '../../assets/instagram-footer.png'
 
 const Footer = () => {
     return (
@@ -69,6 +71,27 @@ const Footer = () => {
                                 <div className={styles.myAccountLink}>
                                     Historia transakcji
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.section}>
+                    <div className={styles.contact}>
+                        <div className={styles.contactTitle}>
+                            KONTAKT
+                        </div>
+                        <div className={styles.contactNumber}>
+                            +48 574 046 421
+                        </div>
+                        <div className={styles.contactEmail}>
+                            kontakt@assasinarmy.pl
+                        </div>
+                        <div className={styles.socials}>
+                            <div className={styles.social}>
+                                <img src={fb} alt="Facebook" />
+                            </div>
+                            <div className={styles.social}>
+                                <img src={ig} alt="Instagram" />
                             </div>
                         </div>
                     </div>
