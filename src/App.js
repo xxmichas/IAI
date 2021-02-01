@@ -4,6 +4,7 @@ import Description from './containers/Description/Description'
 import MenuBar from './containers/MenuBar/MenuBar'
 import Product from './containers/Product/Product'
 import Suggested from './containers/Suggested/Suggested'
+import Tips from './containers/Tips/Tips'
 import TopBar from './containers/TopBar/TopBar'
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
             <Product UpdateCart={UpdateCart} />
             <Suggested />
             <Description />
+            <Tips />
         </div>
     )
 }

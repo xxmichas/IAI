@@ -1,0 +1,13 @@
+.Tips {
+    width: 1170px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 500px;
+}
+
+.container {
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+    display: inline-flex;
+}
