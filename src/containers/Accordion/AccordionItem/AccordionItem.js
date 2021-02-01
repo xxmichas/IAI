@@ -5,16 +5,16 @@ const AccordionItem = (props) => {
     let [Opened, SetOpened] = useState(false)
 
     return (
-        <div className={Opened ? styles.opened : null} onClick={() => SetOpened(!Opened)}>
-            <div className={styles.line}>
-                <h3 className={styles.title}>{props.title}</h3>
-                <span className={styles.icon} />
+        <div className={Opened ? styles.opened : null}>
+            <div className={styles.line} onClick={() => SetOpened(!Opened)}>
+                <div className={styles.title}>{props.title}</div>
+                <div className={styles.icon} />
             </div>
             <div className={styles.inner}>
                 <div className={styles.content}>
-                    <p className={styles.text}>
+                    <div className={styles.text}>
                         {props.paragraph}
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>

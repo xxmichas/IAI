@@ -6,19 +6,19 @@ import Accordion from '../Accordion/Accordion'
 const Description = () => {
     const items = [
         {
-          title: 'Pricing plans',
+          title: 'Czy ten pistolet jest idealny do gry w paintballa?',
+          paragraph: `Zwane popularnie "długimi wiatrówkami" świetnie nadają się do precyzyjnego strzelania na dłuższe dystanse (powyżej 15-20 metrów). Mają większą moc niż wiatrówki pistolety, dłuższą lufę i z tego też względu są zdecydowanie bardziej celne.\nWystrzeliwany z nich śrut ma również większe możliwości przebijania celu`
+        },
+        {
+          title: 'Czy ten model posiada mechanizm spustowy ?',
           paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
         },
         {
-          title: 'How to apply',
+          title: 'Jakie dobrać naboje do tego sprzętu?',
           paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
         },
         {
-          title: 'Purchasing process',
-          paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
-        },
-        {
-          title: 'Usage guides',
+          title: 'Nie moge znależć instrukcji, czy mi ją doślecie?',
           paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
         }
     ]
