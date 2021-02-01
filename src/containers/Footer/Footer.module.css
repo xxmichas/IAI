@@ -6,4 +6,18 @@
     background-size: cover;
     background-position: center;
     margin-top: 50px;
+    position: relative;
+}
+
+.idoSell {
+    width: 101px;
+    height: 23px;
+    background-image: url("../../assets/idoSell.png");
+    position: absolute;
+    font-size: 0;
+    bottom: 23px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
 }
