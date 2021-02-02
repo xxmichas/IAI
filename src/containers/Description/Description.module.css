@@ -167,3 +167,19 @@
 .detailsValue:last-child {
     margin-bottom: 0;
 }
+
+@media only screen and (max-width: 1200px) {
+    .Description {
+        width: 770px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .leftSide {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+}

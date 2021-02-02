@@ -67,12 +67,30 @@
 }
 
 @media only screen and (max-width: 1200px) {
-    .Product {
+    .Suggested {
         width: 770px;
     }
 
-    .leftSide {
-        width: 669px;
-        margin-right: 0;
+    .content {
+        overflow-x: auto;
+    }
+
+    .content::-webkit-scrollbar {
+        width: 20px;
+    }
+      
+    .content::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+      
+    .content::-webkit-scrollbar-thumb {
+        background-color: #d6dee1;
+        border-radius: 20px;
+        border: 6px solid transparent;
+        background-clip: content-box;
+    }
+      
+    .content::-webkit-scrollbar-thumb:hover {
+        background-color: #a8bbbf;
     }
 }

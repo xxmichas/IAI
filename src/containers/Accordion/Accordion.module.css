@@ -9,3 +9,9 @@
 .accordionItem {
     border-bottom: 1px solid #d7d7d7;
 }
+
+@media only screen and (max-width: 1200px) {
+    .accordion {
+        width: 100%;
+    }
+}
