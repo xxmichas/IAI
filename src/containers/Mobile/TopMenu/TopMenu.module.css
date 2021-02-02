@@ -1,0 +1,11 @@
+.TopMenu {
+    height: 36px;
+    width: 100%;
+    background-color: #2e2e2e;
+}
+
+.bars {
+    height: 100%;
+    width: 36px;
+    background-image: url("../../../assets/mobile/bars.svg");
+}
