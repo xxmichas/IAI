@@ -405,4 +405,71 @@
     .Product {
         width: 770px;
     }
+
+    .leftSide {
+        width: 669px;
+        margin-right: 0;
+    }
+
+    .rightSide {
+        margin-top: 50px;
+        width: 770px;
+    }
+
+    .color {
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 16px;
+    }
+
+    .specs {
+        display: block;
+        gap: 0;
+    }
+
+    .spec {
+        display: inline-flex;
+        width: 370px;
+        justify-content: space-between;
+    }
+
+    .spec:first-child {
+        margin-right: 30px;
+    }
+
+    .specText {
+        margin-bottom: 0;
+        line-height: 34px;
+    }
+
+    .shipping {
+        justify-content: space-between;
+        gap: 0;
+        margin-bottom: 16px;
+    }
+
+    .purchase {
+        width: 60%;
+        vertical-align: top;
+        margin-bottom: 16px;
+    }
+
+    .price {
+        width: fit-content;
+        margin-right: 16px;
+    }
+
+    .comparison {
+        width: 40%;
+        height: 60px;
+        margin-bottom: 16px;
+    }
+
+    .cheaper {
+        align-items: center;
+    }
+
+    .compareText {
+        direction: rtl;
+    }
 }
