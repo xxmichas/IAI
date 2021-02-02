@@ -10,3 +10,14 @@
     width: 100%;
     display: inline-flex;
 }
+
+@media only screen and (max-width: 1200px) {
+    .Tips {
+        width: 770px;
+    }
+
+    .container {
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+}
