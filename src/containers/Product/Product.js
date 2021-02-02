@@ -5,7 +5,7 @@ import Tblack from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL REN
 import Tgreen from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/colors/green.png'
 import Tpurple from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/colors/purple.png'
 import TippMann from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/Tippmann-large.png'
-import TippmannIcon from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/Tippmann.png'
+import TippmannIcon from '../../assets/products/MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK)/Tippmann-79x79.png'
 import Color from './Color/Color';
 import IconOK from '../../assets/ok.png'
 import cheaperIcon from '../../assets/cash.png'

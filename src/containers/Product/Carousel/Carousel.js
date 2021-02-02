@@ -13,7 +13,7 @@ const Carousel = (props) => {
                 <div className={`${styles.slideArrow} ${styles.upsideDown}`} id="prevSlide"></div>
             </div>
             <div className={styles.carousel}>
-                <Swiper spaceBetween={10} slidesPerView={6}  navigation={{nextEl: "#nextSlide", prevEl: "#prevSlide"}}
+                <Swiper spaceBetween={10} slidesPerView={6} navigation={{nextEl: "#nextSlide", prevEl: "#prevSlide"}}
                     preventInteractionOnTransition direction="vertical">
                     {props.cards.map((el, i) => (<SwiperSlide key={i}>{el}</SwiperSlide>))}
                 </Swiper>
