@@ -1,11 +1,19 @@
 .TopMenu {
-    height: 36px;
+    height: 55px;
     width: 100%;
     background-color: #2e2e2e;
+    display: inline-flex;
 }
 
 .bars {
     height: 100%;
-    width: 36px;
+    width: 55px;
     background-image: url("../../../assets/mobile/bars.svg");
+}
+
+.logo {
+    height: 100%;
+    width: 55px;
+    background-image: url("../../../assets/mobile/favicon.ico");
+    background-size: contain;
 }
