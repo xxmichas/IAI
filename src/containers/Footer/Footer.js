@@ -96,6 +96,40 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+                <div className={styles.section}>
+                    <div className={styles.orders}>
+                        <div className={styles.ordersTitle}>
+                            MOJE ZAMÓWIENIA
+                        </div>
+                        <div className={styles.ordersLinks}>
+                            <div className={styles.ordersText}>
+                                <div className={styles.ordersLink}>
+                                    Sprawdź status zamówienia
+                                </div>
+                            </div>
+                            <div className={styles.ordersText}>
+                                <div className={styles.ordersLink}>
+                                    Śledź przesyłkę
+                                </div>
+                            </div>
+                            <div className={styles.ordersText}>
+                                <div className={styles.ordersLink}>
+                                    Reklamacje
+                                </div>
+                            </div>
+                            <div className={styles.ordersText}>
+                                <div className={styles.ordersLink}>
+                                    Zwroty
+                                </div>
+                            </div>
+                            <div className={styles.ordersText}>
+                                <div className={styles.ordersLink}>
+                                    Informacje o wymianie
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className={styles.idoSell} />
         </div>

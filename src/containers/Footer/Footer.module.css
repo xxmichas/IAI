@@ -38,30 +38,34 @@
     border-right: 1px solid #333;
 }
 
+.section:last-child {
+    border: none;
+}
+
 .informations {
     margin-left: 8px;
     width: calc(222px - 78px);
     padding-right: 70px;
 }
 
-.informationsTitle, .myAccountTitle, .contactTitle {
+.informationsTitle, .myAccountTitle, .contactTitle, .ordersTitle {
     color: #fff;
     font-size: 16px;
     line-height: 19px;
     margin-bottom: 16px;
 }
 
-.informationsText, .myAccountText {
+.informationsText, .myAccountText, .ordersText {
     height: 30px;
     display: flex;
     align-items: center;
 }
 
-.informationsLink, .myAccountLink {
+.informationsLink, .myAccountLink, .ordersLink {
     cursor: pointer;
 }
 
-.informationsLink:hover, .myAccountLink:hover {
+.informationsLink:hover, .myAccountLink:hover, .ordersLink:hover {
     color: #b62323;
 }
 
@@ -96,4 +100,9 @@
 
 .social {
     height: 100%;
+}
+
+.orders {
+    margin-left: 105px;
+    width: calc(278px - 105px);
 }
