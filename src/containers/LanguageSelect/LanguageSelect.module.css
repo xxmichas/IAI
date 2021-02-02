@@ -27,3 +27,11 @@
     cursor: pointer;
     margin-right: 15px;
 }
+
+@media only screen and (max-width: 1200px) {
+    .language {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 43px;
+    }
+}

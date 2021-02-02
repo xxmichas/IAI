@@ -77,3 +77,32 @@
 .AccountLink:hover {
     color: #b62323;
 }
+
+@media only screen and (max-width: 1200px) {
+    .content {
+        width: 770px;
+    }
+
+    .logo {
+        margin-right: 30px;
+        margin-bottom: 0;
+    }
+
+    .Search {
+        margin-bottom: 0;
+    }
+
+    .Search input {
+        width: 193px;
+    }
+
+    .MagnifyingGlass {
+        margin-right: 150px;
+        margin-bottom: 0;
+    }
+
+    .Account {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}

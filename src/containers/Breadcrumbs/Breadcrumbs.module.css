@@ -25,3 +25,9 @@
 .BCContents a:hover {
     color: #b62323;
 }
+
+@media only screen and (max-width: 1200px) {
+    .BCContents {
+        width: 770px;
+    }
+}

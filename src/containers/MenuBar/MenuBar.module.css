@@ -13,7 +13,7 @@
 .bar {
     display: flex;
     align-items: center;
-    height: 61px;
+    flex-wrap: wrap;
 }
 
 .cat:nth-child(1) {
@@ -42,4 +42,10 @@
 .arrow {
     height: 12px;
     margin-left: 8px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .MenuContents {
+        width: 770px;
+    }
 }
