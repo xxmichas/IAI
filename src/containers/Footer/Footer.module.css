@@ -100,9 +100,14 @@
 
 .social {
     height: 100%;
+    cursor: pointer;
 }
 
 .orders {
-    margin-left: 105px;
-    width: calc(278px - 105px);
+    margin-left: 81px;
+    width: calc(278px - 81px);
+}
+
+.ordersText {
+    gap: 0 12px;
 }

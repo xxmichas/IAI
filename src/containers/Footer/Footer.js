@@ -2,6 +2,11 @@ import React from 'react'
 import styles from './Footer.module.css'
 import fb from '../../assets/facebook-footer.png'
 import ig from '../../assets/instagram-footer.png'
+import order1 from '../../assets/order1.png'
+import order2 from '../../assets/order2.png'
+import order3 from '../../assets/order3.png'
+import order4 from '../../assets/order4.png'
+import order5 from '../../assets/order5.png'
 
 const Footer = () => {
     return (
@@ -103,26 +108,41 @@ const Footer = () => {
                         </div>
                         <div className={styles.ordersLinks}>
                             <div className={styles.ordersText}>
+                                <div className={styles.ordersImg}>
+                                    <img src={order1} alt="Sprawdź status zamówienia" />
+                                </div>
                                 <div className={styles.ordersLink}>
                                     Sprawdź status zamówienia
                                 </div>
                             </div>
                             <div className={styles.ordersText}>
+                                <div className={styles.ordersImg}>
+                                    <img src={order2} alt="Śledź przesyłkę" />
+                                </div>
                                 <div className={styles.ordersLink}>
                                     Śledź przesyłkę
                                 </div>
                             </div>
                             <div className={styles.ordersText}>
+                                <div className={styles.ordersImg}>
+                                    <img src={order3} alt="Reklamacje" />
+                                </div>
                                 <div className={styles.ordersLink}>
                                     Reklamacje
                                 </div>
                             </div>
                             <div className={styles.ordersText}>
+                                <div className={styles.ordersImg}>
+                                    <img src={order4} alt="Zwroty" />
+                                </div>
                                 <div className={styles.ordersLink}>
                                     Zwroty
                                 </div>
                             </div>
                             <div className={styles.ordersText}>
+                                <div className={styles.ordersImg}>
+                                    <img src={order5} alt="Informacje o wymianie" />
+                                </div>
                                 <div className={styles.ordersLink}>
                                     Informacje o wymianie
                                 </div>
