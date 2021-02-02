@@ -35,7 +35,7 @@ const TopBar = (props) => {
     return (
         <Fragment>
             <div className={styles.TopBar} />
-            {IsMobile ? <TopMenu /> : <TopLinks cart={props.cart} />}
+            {IsMobile ? <TopMenu cart={props.cart} /> : <TopLinks />}
             <div className={styles.content}>
                 <div className={styles.logo}>
                     <img onClick={() => window.location.assign(window.location.origin)} src={logo} alt="logo" />

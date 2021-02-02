@@ -11,8 +11,6 @@ const Basket = (props) => {
         let amount = 0
         let price = 0
         for (const item in props.cart) {
-            console.log(props.cart[item].amount)
-            console.log(props.cart[item].price)
             amount = amount + props.cart[item].amount
             price = price + (props.cart[item].amount * props.cart[item].price)
         }
