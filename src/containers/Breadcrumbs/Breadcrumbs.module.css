@@ -3,6 +3,8 @@
     height: 35px;
     background-image: url("../../assets//breadcrumbs-bg.png");
     z-index: -1;
+    background-size: cover;
+    background-position: 50%;
 }
 
 .BCContents {
