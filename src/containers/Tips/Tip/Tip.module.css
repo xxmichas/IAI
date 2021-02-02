@@ -38,7 +38,17 @@
 @media only screen and (max-width: 1200px) {
     .tip {
         width: 100%;
+        margin-bottom: 35px;
     }
+
+    .tip:last-child {
+        margin-bottom: 0;
+    }
+
+    .title {
+        margin-bottom: 10px;
+    }
+
     .desc {
         padding: 0 15px 0;
     }

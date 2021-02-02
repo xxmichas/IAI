@@ -111,3 +111,36 @@
 .ordersText {
     gap: 0 12px;
 }
+
+@media only screen and (max-width: 1200px) {
+    .footer {
+        margin-top: 0;
+    }
+
+    .container {
+        width: 770px;
+    }
+
+    .informations {
+        width: 145px;
+        margin-left: 0;
+        padding-right: 20px;
+    }
+
+    .myAccount {
+        width: 145px;
+        margin-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contact {
+        width: 155px;
+        margin-left: 20px;
+        padding-right: 20px;
+    }
+
+    .orders {
+        margin-left: 20px;
+        width: 202px;
+    }
+}
