@@ -144,3 +144,12 @@
         width: 202px;
     }
 }
+
+@media only screen and (max-width: 800px) {
+    .footer {
+        width: 100%;
+    }
+    .container {
+        display: none;
+    }
+}
