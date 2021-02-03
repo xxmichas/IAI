@@ -478,10 +478,95 @@
 @media only screen and (max-width: 800px) {
     .Product {
         width: 100%;
+        margin-top: 16px;
     }
 
     .Carousel {
         margin-right: 0;
         display: block;
+    }
+
+    .leftSide {
+        width: calc(100% - 10vw);
+        display: block;
+        margin: 0 auto 16px;
+    }
+
+    .tags {
+        margin: 16px 0;
+        height: 21px;
+    }
+
+    .preview {
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
+
+    .previewImg {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .rightSide {
+        width: calc(100% - 10vw);
+        margin: 0 auto;
+        display: block;
+    }
+
+    .colorImgs {
+        justify-content: center;
+    }
+
+    .specs {
+        display: inline-flex;
+        gap: 0;
+        width: 100%;
+    }
+
+    .spec {
+        display: block;
+        width: 100%;
+        justify-content: unset;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .spec:first-child {
+        margin-right: auto;
+    }
+
+    .specText {
+        margin-bottom: 0;
+        line-height: 34px;
+    }
+
+    .dropdown {
+        width: calc(100% - 12px);
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .dropdown option {
+        font-size: 14px;
+    }
+
+    .availability {
+        width: 50%;
+    }
+
+    .availabilityIcon {
+        display: flex;
+    }
+
+    .availabilityIcon img {
+        display: block;
+        margin: auto;
+    }
+
+    .shippingDetails {
+        width: 40%;
+        direction: rtl;
     }
 }
