@@ -2,6 +2,10 @@ import React from 'react'
 import styles from './OffCanvas.module.css'
 import LanguageSelect from '../../LanguageSelect/LanguageSelect'
 import Dropdown from '../Dropdown/Dropdown'
+import telephone from '../../../assets/telephone.png'
+import email from '../../../assets/email.png'
+import fb from '../../../assets/facebook-footer.png'
+import ig from '../../../assets/instagram-footer.png'
 
 const OffCanvas = (props) => {
 
@@ -35,6 +39,28 @@ const OffCanvas = (props) => {
                     <Dropdown isDropdown={true} title="ODZIEŻ" options={[{name: "odzież", link: "https://google.com"}, {name: "ubrania", link: "https://google.com"}]} />
                     <Dropdown isDropdown={false} title="KULKI" link="https://allegro.pl" />
                     <Dropdown isDropdown={false} title="WYPRZEDAŻE" link="https://allegro.pl" />
+                    <div className={styles.footer}>
+                        <div className={styles.contact}>
+                            <img src={telephone} alt="Telefon" />Tel: +48 517 989 511
+                        </div>
+                        <div className={styles.contact}>
+                            <img src={telephone} alt="Telefon" />Tel: +48 574 046 421
+                        </div>
+                        <div className={styles.contact}>
+                            <img src={email} alt="Email" />E-mail: sklep@assassins-arms.com
+                        </div>
+                        <div className={styles.contact}>
+                            <img src={email} alt="Email" />E-mail: kontakt@assasinarmy.pl
+                        </div>
+                        <div className={styles.socials}>
+                            <div className={styles.social}>
+                                <img src={fb} alt="Facebook" />
+                            </div>
+                            <div className={styles.social}>
+                                <img src={ig} alt="Instagram" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
