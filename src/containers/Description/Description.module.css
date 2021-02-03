@@ -245,6 +245,7 @@
     .help {
         line-height: normal;
         gap: 10%;
+        height: auto;
     }
 
     .helpText {

@@ -4,7 +4,7 @@
     width: 100%;
     background-color: #2e2e2e;
     display: inline-flex;
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
 }
@@ -24,4 +24,9 @@
     width: 55px;
     background-image: url("../../../assets/mobile/favicon.ico");
     background-size: contain;
+}
+
+.space {
+    height: 55px;
+    width: 100%;
 }

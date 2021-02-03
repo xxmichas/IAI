@@ -149,7 +149,38 @@
     .footer {
         width: 100%;
     }
+
     .container {
+        width: 90%;
+        justify-content: center;
+        gap: 0 16px;
+    }
+
+    .section {
         display: none;
+        border: none;
+    }
+
+    .section:first-child, .section:last-child {
+        display: block;
+    }
+
+    .informations {
+        padding: 0;
+        width: auto;
+    }
+
+    .orders {
+        margin: 0;
+        width: auto;
+    }
+
+    .ordersText div:first-child {
+        font-size: 0;
+    }
+
+    .informationsText, .ordersText {
+        height: auto;
+        margin: 5px 0;
     }
 }

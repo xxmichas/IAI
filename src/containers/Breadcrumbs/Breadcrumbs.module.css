@@ -33,7 +33,11 @@
 }
 
 @media only screen and (max-width: 800px) {
+    .BC {
+        overflow-x: auto;
+    }
+
     .BCContents {
-        width: calc(100% - 10vw);
+        width: max-content;
     }
 }

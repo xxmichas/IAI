@@ -32,12 +32,3 @@
 .opened {
     transform: translateX(0);
 }
-
-.close {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 55px;
-    width: 55px;
-    background-image: url("../../../assets/mobile/cross.svg");
-}
