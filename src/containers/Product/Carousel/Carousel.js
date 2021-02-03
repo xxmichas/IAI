@@ -8,13 +8,14 @@ const Carousel = (props) => {
     SwiperCore.use([Navigation]);
 
     return (
-        <div>
+        <div className={styles.container}>
             <div className={styles.slideArrowArea}>
                 <div className={`${styles.slideArrow} ${styles.upsideDown}`} id="prevSlide"></div>
             </div>
             <div className={styles.carousel}>
-                <Swiper spaceBetween={10} slidesPerView={6} navigation={{nextEl: "#nextSlide", prevEl: "#prevSlide"}}
-                    preventInteractionOnTransition direction="vertical">
+                <Swiper spaceBetween={10} slidesPerView={"auto"} navigation={{nextEl: "#nextSlide", prevEl: "#prevSlide"}}
+                    preventInteractionOnTransition direction="horizontal"
+                    breakpoints={{801: {direction: "vertical", spaceBetween: 10, slidesPerView: 6}}}>
                     {props.cards.map((el, i) => (<SwiperSlide key={i}>{el}</SwiperSlide>))}
                 </Swiper>
             </div>

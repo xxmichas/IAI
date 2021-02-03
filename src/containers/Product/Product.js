@@ -53,6 +53,11 @@ const Product = (props) => {
         <Card id={5} select={SetSelectedCard} selectedCard={selectedCard} img={TippmannIcon} alt="Tippmann" />,
         <Card id={6} select={SetSelectedCard} selectedCard={selectedCard} img={TippmannIcon} alt="Tippmann" />,
         <Card id={7} select={SetSelectedCard} selectedCard={selectedCard} img={TippmannIcon} alt="Tippmann" />,
+        <Card id={8} select={SetSelectedCard} selectedCard={selectedCard} img={TippmannIcon} alt="Tippmann" />,
+        <Card id={9} select={SetSelectedCard} selectedCard={selectedCard} img={TippmannIcon} alt="Tippmann" />,
+        <Card id={10} select={SetSelectedCard} selectedCard={selectedCard} img={TippmannIcon} alt="Tippmann" />,
+        <Card id={11} select={SetSelectedCard} selectedCard={selectedCard} img={TippmannIcon} alt="Tippmann" />,
+        <Card id={12} select={SetSelectedCard} selectedCard={selectedCard} img={TippmannIcon} alt="Tippmann" />
     ]
 
     let barrelLength = ['120 cm', '100 cm', '80 cm']

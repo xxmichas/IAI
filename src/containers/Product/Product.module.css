@@ -479,4 +479,9 @@
     .Product {
         width: 100%;
     }
+
+    .Carousel {
+        margin-right: 0;
+        display: block;
+    }
 }

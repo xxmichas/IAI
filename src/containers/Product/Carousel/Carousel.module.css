@@ -1,3 +1,7 @@
+.container {
+    user-select: none;
+}
+
 .carousel {
     width: 81px;
     height: 536px;
@@ -21,4 +25,30 @@
 
 .upsideDown {
     transform: rotateX(180deg);
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        display: flex;
+    }
+
+    .slideArrowArea {
+        width: 25px;
+        height: 81px;
+        display: flex;
+    }
+
+    .slideArrow {
+        transform: rotate(270deg);
+    }
+
+    .upsideDown {
+        transform: rotate(90deg);
+    }
+
+    .carousel {
+        margin: 0 16px;
+        height: 81px;
+        width: calc(100% - 82px);
+    }
 }
