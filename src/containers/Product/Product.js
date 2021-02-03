@@ -21,8 +21,8 @@ const Product = (props) => {
     let price = 1278
 
     let UpdateAmount = (bonusAmount) => {
-        if (Amount + bonusAmount < 0) {
-            SetAmount(0)
+        if (Amount + bonusAmount <= 0) {
+            SetAmount(1)
         }
         else {
             SetAmount(Amount + bonusAmount)
