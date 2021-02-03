@@ -35,3 +35,15 @@
         margin-left: 43px;
     }
 }
+
+@media only screen and (max-width: 800px) {
+    .language {
+        margin: 0 auto;
+        border: none;
+        display: flex;
+    }
+
+    .arrow {
+        margin: 0;
+    }
+}
