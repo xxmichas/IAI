@@ -474,3 +474,9 @@
         direction: rtl;
     }
 }
+
+@media only screen and (max-width: 800px) {
+    .Product {
+        width: 100%;
+    }
+}
