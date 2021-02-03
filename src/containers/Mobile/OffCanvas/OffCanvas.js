@@ -5,9 +5,9 @@ const OffCanvas = (props) => {
 
 
     return (
-        <div className={`${styles.offCanvas} ${props.opened ? styles.opened : null}`}>
-            <div onClick={() => props.SetOffCanvasOpened(false)} className={styles.close}>
-
+        <div onClick={() => props.SetOffCanvasOpened(false)} className={`${styles.backDrop} ${props.opened ? styles.visible : null}`}>
+            <div className={`${styles.offCanvas} ${props.opened ? styles.opened : null}`}>
+                d
             </div>
         </div>
     )

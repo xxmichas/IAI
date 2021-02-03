@@ -89,9 +89,27 @@
 @media only screen and (max-width: 800px) {
     .Basket {
         top: -76px;
+        right: -65px;
+    }
+    
+    .background {
+        display: none;
     }
 
     .content {
         margin-top: 86px;
+    }
+
+    .rank {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .BasketText {
+        display: none;
+    }
+
+    .BasketItems {
+        color: #2e2e2e;
     }
 }
