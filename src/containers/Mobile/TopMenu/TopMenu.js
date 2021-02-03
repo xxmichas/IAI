@@ -4,7 +4,7 @@ import styles from './TopMenu.module.css'
 
 const TopMenu = (props) => {
     return (
-        <div className={styles.TopMenu}>
+        <div onClick={() => props.SetOffCanvasOpened(true)} className={styles.TopMenu}>
             <div className={styles.bars} />
             <div className={styles.logo} />
             <Basket cart={props.cart} />

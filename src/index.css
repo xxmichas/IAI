@@ -22,6 +22,7 @@ html, body {
 
 .Main {
     width: 100%;
+    position: relative;
 }
 
 .swiper-slide {
