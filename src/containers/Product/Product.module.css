@@ -479,6 +479,7 @@
     .Product {
         width: 100%;
         margin-top: 16px;
+        margin-bottom: 32px;
     }
 
     .Carousel {
@@ -487,7 +488,7 @@
     }
 
     .leftSide {
-        width: calc(100% - 10vw);
+        width: 90%;
         display: block;
         margin: 0 auto 16px;
     }
@@ -510,7 +511,7 @@
     }
 
     .rightSide {
-        width: calc(100% - 10vw);
+        width: 90%;
         margin: 0 auto;
         display: block;
     }
@@ -568,5 +569,50 @@
     .shippingDetails {
         width: 40%;
         direction: rtl;
+    }
+
+    .purchase {
+        width: 100%;
+        display: block;
+    }
+
+    .price {
+        margin: 0 0 16px;
+    }
+
+    .priceOld {
+        font-size: 20px;
+    }
+
+    .priceCurrent::before {
+        content: "Cena: ";
+    }
+
+    .purchaseOptions {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .purchaseAmount {
+        margin: 0;
+    }
+
+    .comparison {
+        width: 100%;
+    }
+
+    .features {
+        height: auto;
+    }
+
+    .featuresContent {
+        width: 90%;
+        height: 90%;
+        padding: 5%;
+        justify-content: center;
+    }
+
+    .feature {
+        width: 90%;
     }
 }

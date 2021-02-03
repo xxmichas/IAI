@@ -95,3 +95,10 @@
         background-color: #a8bbbf;
     }
 }
+
+@media only screen and (max-width: 800px) {
+    .Suggested {
+        width: 90%;
+        margin-bottom: 32px;
+    }
+}
